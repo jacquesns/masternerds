@@ -1,5 +1,7 @@
 package com.masternerds.entity;
 
+import lombok.Data;
+
 import java.io.Serializable;
 
 import javax.persistence.Entity;
@@ -7,8 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-//TODO Use Lombok
-
+@Data
 @Entity
 public class Survey implements Serializable {
 	
