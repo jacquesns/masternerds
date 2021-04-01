@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "b330dff7-95db-4cc8-9aed-31f833d32cd7",
+		"name": "masternerds-survey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Survey-getAll",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8081/api/survey/findAll",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"api",
+						"survey",
+						"findAll"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
